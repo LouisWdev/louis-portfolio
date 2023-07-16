@@ -1,0 +1,45 @@
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+/* Contact section styles */
+#contact {
+    padding: 40px 0;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  form button {
+    background-color: #008cff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .OtherContact {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,14 @@
+/* Footer Section style */
+footer {
+    background-color: hsl(241, 100%, 12%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    padding: 8px;
+    bottom: 0;
+    width: 99.2%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
