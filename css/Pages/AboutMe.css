@@ -1,0 +1,51 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+/* Hero section styles */
+#hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px;
+  }
+
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+.VaporwaveRoom {
+    width: 80%;
+    height: 80%;
+}
+
+/* Footer Styling*/
+footer {
+    background-color: hsl(241, 100%, 12%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 8px;
+    bottom: 0%;
+    width: 99.2%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #332fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
