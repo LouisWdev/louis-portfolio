@@ -1,0 +1,36 @@
+
+.btn {
+    display: inline-block;
+    background-color: #332fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .glow-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0400ff;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: glowing 2s infinite;
+    margin-top: 10px;
+  }
+
+  
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 3px #00065c;
+    }
+    50% {
+      box-shadow: 0 0 10px #332fff, 0 0 30px #332fff;
+    }
+    100% {
+      box-shadow: 0 0 5px #3600ca;
+    }
+  }

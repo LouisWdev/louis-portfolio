@@ -49,3 +49,10 @@ footer {
     border-radius: 5px;
     margin-top: 20px;
   }
+
+  .Line {
+    width: 90%;
+    width: full;
+    height: 1px;
+    background-color: rgb(255, 0, 0);
+  }

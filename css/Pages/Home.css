@@ -30,11 +30,16 @@ body {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: rgb(41, 145, 0); }
+  50% { border-color: rgb(0, 68, 255); }
+}
+
+.WelcometitleContainer {
+  max-width: 370px;
+  margin: 0 auto;
 }
 
 .container {
-  max-width: 960px;
+  max-width: 100;
   margin: 0 auto;
   padding: 20px;
 }
@@ -58,12 +63,4 @@ body {
   color: #00aeff;
 }
 
-.btn {
-  display: inline-block;
-  background-color: #332fff;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 20px;
-}
+
