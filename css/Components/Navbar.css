@@ -1,6 +1,5 @@
 /* Header styles */
 header {
-    background-color: hsl(249, 100%, 33%);
     padding: 10px;
   }
 
@@ -12,6 +11,8 @@ header {
     padding: 0;
     display: flex;
     justify-content: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
   }
   
   nav ul a:hover {
