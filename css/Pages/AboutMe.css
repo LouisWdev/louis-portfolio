@@ -24,6 +24,7 @@ body {
 .VaporwaveRoom {
     width: 80%;
     height: 80%;
+    animation: glowing 2s infinite;
 }
 
 /* Footer Styling*/
@@ -55,4 +56,16 @@ footer {
     width: full;
     height: 1px;
     background-color: rgb(255, 0, 0);
+  }
+
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 3px #00065c;
+    }
+    50% {
+      box-shadow: 0 0 10px #332fff, 0 0 30px #332fff;
+    }
+    100% {
+      box-shadow: 0 0 5px #3600ca;
+    }
   }

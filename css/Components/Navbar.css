@@ -2,8 +2,6 @@
 header {
     padding: 10px;
   }
-
-  
   
   nav ul {
     list-style: none;
@@ -12,7 +10,6 @@ header {
     display: flex;
     justify-content: center;
     letter-spacing: 1px;
-    word-spacing: 3px;
   }
   
   nav ul a:hover {
@@ -26,5 +23,5 @@ header {
   
   nav ul li a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none; 
   }
