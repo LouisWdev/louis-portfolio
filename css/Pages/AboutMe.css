@@ -25,7 +25,10 @@ body {
     width: 80%;
     height: 80%;
     animation: glowing 2s infinite;
-}
+    counter-reset: none;
+    border-radius: 10px;
+    box-shadow: #fff;
+  }
 
 /* Footer Styling*/
 footer {
