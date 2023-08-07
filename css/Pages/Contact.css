@@ -17,7 +17,9 @@ body {
 
 /* Contact section styles */
 #contact {
+    margin-top: 70px;
     padding: 40px 0;
+    font-size: 30px;
   }
   
   form input,
@@ -42,4 +44,4 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } 

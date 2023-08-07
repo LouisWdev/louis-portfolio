@@ -11,6 +11,7 @@ body {
 /*Background Image*/
 
 .WelcomeTitle {
+  font-size: 50px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid rgb(0, 24, 2); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -34,7 +35,7 @@ body {
 }
 
 .WelcometitleContainer {
-  max-width: 370px;
+  max-width: 760px;
   margin: 0 auto;
 }
 
