@@ -1,12 +1,12 @@
 /* Footer Section style */
 footer {
-    background-color: hsl(249, 100%, 7%);
+    background-color: hsl(234, 100%, 16%);
     color: rgb(255, 255, 255);
     text-align: center;
     position: absolute;
     padding: 12px;
     bottom: 0%;
-    width: 99.2%;
+    width: 98.8%;
     height: 70px;
     display: flex;
     justify-content: center;
